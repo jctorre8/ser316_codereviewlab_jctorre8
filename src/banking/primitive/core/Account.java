@@ -1,5 +1,11 @@
 package banking.primitive.core;
 
+/**
+Class:	Account
+
+Description: Abstract account that needs to be extended to provide actual
+			 full functionality of different kind of accounts
+*/
 public abstract class Account implements java.io.Serializable {
     private static final long serialVersionUID = 1L;
 

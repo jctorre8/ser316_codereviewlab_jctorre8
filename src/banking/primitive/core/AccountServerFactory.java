@@ -1,6 +1,10 @@
 package banking.primitive.core;
 
+/**
+Class:	AccountServerFactory
 
+Description: This is a singleton class to only produce one ServerSolution class.
+*/
 public class AccountServerFactory {
 
 	protected static AccountServerFactory singleton = null;

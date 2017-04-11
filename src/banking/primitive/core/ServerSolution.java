@@ -8,6 +8,12 @@ import java.io.*;
 
 import banking.primitive.core.Account.State;
 
+/**
+Class:	ServerSolution
+
+Description: Create a new account object in the server. if an account already exists with the given name
+  			 then a new account is not created and stored.
+*/
 class ServerSolution implements AccountServer {
 
 	static String fileName = "accounts.ser";
