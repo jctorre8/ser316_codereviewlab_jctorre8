@@ -11,6 +11,11 @@ import java.awt.Container;
 import java.awt.event.*;
 import javax.swing.*;
 
+/**
+Class:	MainFrame
+
+Description: This class provides the main GUI for the application.
+*/
 @SuppressWarnings("serial")
 class MainFrame extends JFrame {
 	AccountServer	myServer;
